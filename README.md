@@ -41,6 +41,9 @@ In the file `variables.py` remove the 0 and put a valid username that you are su
 python run.py
 ```
 **Ignore the warnings in the terminal for now**
+
+### **ALL working usernames will be written to a file called `Working.txt`**
+
 ## Customization of the program
 All customizable parameters are in the `variables.py` file. **DO NOT MODIFY ANY OTHER FILES** <br>
 You can customize the following parameters in the program:<br>
