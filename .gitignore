@@ -1,0 +1,4 @@
+venv/
+Working.txt
+__/pycache__/
+*.pyc
