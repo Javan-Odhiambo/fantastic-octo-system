@@ -10,6 +10,8 @@ git clone https://github.com/Javan-Odhiambo/fantastic-octo-system.git
 cd fantastic-octo-system
 ```
 
+### **If you are on termux skip to Install the requirements**
+
 **Make sure python is installed and if not install it from _[here](https://www.python.org/downloads/)_.<br>Depending on how you installed python you might change the word `python` to `py` in the following commands.**
 
 ### Create a virtual environment <br>
@@ -35,6 +37,10 @@ pip install -r requirements.txt
 
 ### Set a Normal username<br>
 In the file `variables.py` remove the 0 and put a valid username that you are sure either works or is normal.
+
+On termux type `nano variables.py` <br>
+Edit the file on line 5 to be `NORMAL_USERNAME = 11465604` for example and also set the ranges for the minimum and maximum username to try. <br>
+Save the file and exit.
 
 ### Run the program <br>
 ```
