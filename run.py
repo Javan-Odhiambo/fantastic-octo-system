@@ -10,6 +10,8 @@ from variables import MIN_RANGE, MAX_RANGE, NO_OF_TRIALS, SECONDS_TO_WAIT_BEFORE
 if not NORMAL_USERNAME:
     print('NORMAL USERNAME MUST BE SET')
     exit(1)
+else: 
+    NORMAL_USERNAME = str(NORMAL_USERNAME) + "@gpon"
 
 def check_network(username):
     try:

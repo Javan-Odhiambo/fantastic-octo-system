@@ -90,7 +90,6 @@ SETTINGS_HEADER.update(COMMON_HEADER)
 settings_data = {
     'y.Enable': '1',
     'y.X_HW_IPv4Enable': '1',
-    
     'y.X_HW_IPv6Enable': '0',
     'y.X_HW_IPv6MultiCastVLAN': '-1',
     'y.X_HW_SERVICELIST': 'INTERNET',
